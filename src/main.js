@@ -14,6 +14,6 @@ web.use((req, res, next) => {
   next();
 });
 
-web.listen(8000, () => {
+web.listen(process.env.PORT, () => {
   logger.info("app strat");
 });
