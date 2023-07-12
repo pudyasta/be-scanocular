@@ -65,6 +65,9 @@ const login = async (req) => {
     },
     select: {
       token: true,
+      name:true,
+      email:true,
+      alamat:true
     },
   });
 };
